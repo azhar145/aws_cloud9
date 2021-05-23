@@ -16,7 +16,7 @@ import calendar
 import yfinance as yf
 import textwrap
 wrapper = textwrap.TextWrapper(width=100)
-import yahoo_fin
+#import yahoo_fin
 #from yahoo_fin import stock_info
 #from yahoo_fin.stock_info import get_data
 #import yahoo_fin.stock_info 
