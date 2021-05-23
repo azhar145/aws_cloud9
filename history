@@ -1,0 +1,25 @@
+    1  git clone https://github.com/matplotlib/mplfinance
+    2  sudo python3 -m pip install matplotlib   
+    3  git clone https://github.com/matplotlib/matplotlib
+    4  git clone https://github.com/pandas-dev/pandas
+    5  git clone https://github.com/mrjbq7/ta-lib
+    6  vi c.py
+    7  python3 c.py
+    8  vi c.py
+    9  python3 c.py
+   10  sudo python3 -m pip install yfinance
+   11  python3 c.py
+   12  vi c.py
+   13  python3 c.py
+   14  vi c.py
+   15  python3 c.py
+   16  vi c.py
+   17  python3 c.py
+   18  vi c.py
+   19  python3 c.py
+   20  vi c.py
+   21  python3 c.py
+   22  vi c.py
+   23  python3 c.py
+   24  history
+   25  history > history.txt

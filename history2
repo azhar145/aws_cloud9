@@ -1,0 +1,99 @@
+    1  git clone https://github.com/matplotlib/mplfinance
+    2  sudo python3 -m pip install matplotlib   
+    3  git clone https://github.com/matplotlib/matplotlib
+    4  git clone https://github.com/pandas-dev/pandas
+    5  git clone https://github.com/mrjbq7/ta-lib
+    6  vi c.py
+    7  python3 c.py
+    8  vi c.py
+    9  python3 c.py
+   10  sudo python3 -m pip install yfinance
+   11  python3 c.py
+   12  vi c.py
+   13  python3 c.py
+   14  vi c.py
+   15  python3 c.py
+   16  vi c.py
+   17  python3 c.py
+   18  vi c.py
+   19  python3 c.py
+   20  vi c.py
+   21  python3 c.py
+   22  vi c.py
+   23  python3 c.py
+   24  history
+   25  history > history.txt
+   26  ls
+   27  aws s3 ls
+   28  aws s3 mb stocks_info
+   29  aws s3 mb s3://stocks_2021
+   30  aws s3 mb s3://stocks_2021a
+   31  aws s3 mb s3://stocks
+   32  aws s3 ls
+   33  aws s3 mb s3://stocks --region us-west-2
+   34  aws s3 mb s3://stocks655 --region us-west-2
+   35  ls
+   36  aws s3 ls
+   37  aws s3 cp history.txt s3://stocks655
+   38  aws s3 cp c.py  s3://stocks655
+   39  aws s3 sync c.py  s3://stocks655
+   40  aws s3 sync history.txt s3://stocks655
+   41  vi c.py
+   42  vi d.py
+   43  python3 d.py
+   44  vi d.py
+   45  python3 d.py
+   46  vi d.py
+   47  python3 d.py
+   48  vi d.py
+   49  python3 d2.py
+   50  vi d.py
+   51  git clone https://github.com/atreadw1492/yahoo_fin
+   52  python3 d2.py
+   53  vi d2.py
+   54  python3 d2.py
+   55  vi d2.py
+   56  python3 d2.py
+   57  git clone https://github.com/atreadw1492/yahoo_fin
+   58  pip install yahoo_fin --upgrade
+   59  sudo pip install yahoo_fin --upgrade
+   60  python3 d2.py
+   61  vi d2.py
+   62  python3 d2.py
+   63  sudo pip install requests_html
+   64  git clone https://github.com/atreadw1492/yahoo_fin
+   65  vi d2.py
+   66  python3 d2.py
+   67  python3 pip -m install Jinja2
+   68  sudo python3 pip -m install Jinja2
+   69  sudo pip install jinja2
+   70  python3 d2.py
+   71  sudo python3 pip -m install Jinja2
+   72  sudo git clone https://github.com/atreadw1492/yahoo_fin
+   73  sudo python3 pip -m uninstall yahoo_fin
+   74* 
+   75  aws s3 sync d2.py  s3://stocks655
+   76  python3 d2.py
+   77  sudo python3 pip -m install conda
+   78  git clone https://github.com/conda/conda
+   79  python3 d2.py
+   80  vi d2.py
+   81  python3 d2.py
+   82  vi d2.py
+   83  sudo python3 pip -m install datetime
+   84  python3
+   85  vi d2.py
+   86  python3 d2.py
+   87  vi d2.py
+   88  python3 d2.py
+   89  history
+   90  aws s3 sync d2.py  s3://stocks655
+   91  pwd
+   92  aws s3 sync d2.py  s3://stocks655/
+   93  aws s3 sync /home/ec2-user/environment/d2.py  s3://stocks655
+   94  aws s3 
+   95  aws s3 ls
+   96  aws s3://stocks655
+   97  aws s3 sync /home/ec2-user/environment/d2.py  s3://stocks655
+   98  aws s3 cp /home/ec2-user/environment/d2.py  s3://stocks655
+   99  history > history_d2.txt
