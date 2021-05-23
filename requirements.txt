@@ -1,0 +1,10 @@
+ta-lib
+pandas
+matplotlib
+mplfinance
+conda
+yahoo_fin
+plint
+pytest
+click
+
