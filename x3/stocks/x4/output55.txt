@@ -1,0 +1,101 @@
+ Symbol Name "Price (Intraday)" Change "% Change" Volume "Avg Vol (3 month)" "Market Cap" "PE Ratio (TTM)" %_Vol_delta
+8 ZLAB "Zai Lab Limited" 157.23 -12.96 -7.62 209.64K 496.7K 15.37B  -57.79
+61 COUP "Coupa Software Incorporated" 216.72 -9.37 -4.14 1.78M 1.24M 15.93B  44.3
+24 OSTK "Overstock.com, Inc." 81.99 -4.34 -5.03 964.76K 1.68M 3.53B 42.31 -42.4
+62 LYB "LyondellBasell Industries N.V." 96.85 -4.15 -4.11 1.46M 1.59M 32.38B 13.83 -8.0
+59 ITRI "Itron, Inc." 90.95 -4.02 -4.23 140.63K 295.9K 4.1B  -52.48
+68 SI "Silvergate Capital Corporation" 88.11 -3.71 -4.04 271.74K 1.2M 2.32B 51.71 -77.32
+41 SAVA "Cassava Sciences, Inc." 78.79 -3.64 -4.42 1.93M 2.26M 3.15B  -14.54
+79 ALV "Autoliv, Inc." 91.37 -3.61 -3.8 734.36K 383.55K 7.99B 29.75 91.46
+78 RIO "Rio Tinto Group" 82.86 -3.39 -3.93 2.52M 2.42M 134.15B 13.81 4.39
+38 SGMS "Scientific Games Corporation" 61.46 -2.92 -4.53 996.69K 1.02M 5.9B  -2.19
+14 PSMMF "Persimmon Plc" 40.81 -2.69 -6.18 51.39K 1.04K 13.02B 14.81 4846.49
+33 TSE "Trinseo S.A." 52.29 -2.61 -4.75 220.3K 331.01K 2.03B 17.6 -33.45
+23 TDC "Teradata Corporation" 44.65 -2.47 -5.24 615.18K 1.59M 4.89B 346.12 -61.21
+0 TRQ "Turquoise Hill Resources Ltd." 13.72 -2.46 -15.2 3.23M 989.1K 2.76B 4.62 226.15
+95 APO "Apollo Global Management, Inc." 57.16 -2.28 -3.84 2.37M 2.38M 13.28B 7.42 -0.42
+57 CPRI "Capri Holdings Limited" 48.03 -2.17 -4.32 1.03M 1.78M 7.27B  -42.08
+4 TAL "TAL Education Group" 19.8 -2.15 -9.78 18.74M 14.8M 12.76B  26.62
+58 DLO "DLocal Limited" 46.85 -2.1 -4.29 714.79K 1.45M 13.72B 0.61 -50.77
+92 LPX "Louisiana-Pacific Corporation" 53.25 -2.07 -3.74 1.61M 2.56M 5.45B 7.47 -37.32
+75 CF "CF Industries Holdings, Inc." 47.11 -1.93 -3.94 1.17M 2M 10.11B 25.3 -41.73
+98 HTHT "Huazhu Group Limited" 49.62 -1.9 -3.69 489.21K 1.13M 31.64B  -56.86
+39 PDCE "PDC Energy, Inc." 39.77 -1.86 -4.47 342.23K 883.66K 3.95B  -61.27
+99 SQM "Sociedad Química y Minera de Chile S.A." 47.61 -1.81 -3.66 623.69K 1.32M 12.53B 66.87 -52.82
+73 RRR "Red Rock Resorts, Inc." 38.42 -1.67 -4.17 409.82K 784.24K 4.49B  -47.74
+87 TEX "Terex Corporation" 43.5 -1.65 -3.65 583.08K 736.09K 3.04B 56.06 -20.79
+31 MP "MP Materials Corp." 32.87 -1.59 -4.61 1.38M 3.72M 5.61B  -62.98
+88 ZIM "ZIM Integrated Shipping Services Ltd." 38.41 -1.57 -3.93 1.06M 1.69M 4.42B 3.71 -37.37
+50 AA "Alcoa Corporation" 32.98 -1.56 -4.52 9.54M 7.42M 6.16B  28.59
+29 MT ArcelorMittal 29.66 -1.49 -4.79 2.95M 4.49M 30.43B 13.11 -34.31
+70 KMT "Kennametal Inc." 34.01 -1.44 -4.06 403.53K 613.31K 2.84B 278.77 -34.2
+20 DADA "Dada Nexus Limited" 25.09 -1.43 -5.39 856.9K 1.29M 5.94B  -33.37
+5 ERIC "Telefonaktiebolaget LM Ericsson (publ)" 11.85 -1.4 -10.6 22.67M 5.98M 39.98B  278.91
+65 CC "The Chemours Company" 32.38 -1.4 -4.14 458.54K 1.2M 5.36B 25.18 -61.88
+11 CLF "Cleveland-Cliffs Inc." 20.22 -1.4 -6.47 18.44M 27.87M 10.1B  -33.84
+2 GOTU "Gaotu Techedu Inc." 10.81 -1.3 -10.73 8.28M 9.73M 2.76B  -14.94
+64 SPCE "Virgin Galactic Holdings, Inc." 30.44 -1.3 -4.1 39.22M 38.7M 7.33B  1.33
+6 ERIXF "Telefonaktiebolaget LM Ericsson (publ)" 11.79 -1.29 -9.86 952.1K 96.04K 40B  891.38
+7 BHG "Bright Health Group, Inc." 13.62 -1.27 -8.53 1.27M 2.15M 8.47B  -40.98
+12 LTHM "Livent Corporation" 18.44 -1.25 -6.35 2.12M 2.77M 2.94B  -23.35
+47 SAVE "Spirit Airlines, Inc." 26.62 -1.25 -4.49 2.18M 3.52M 2.89B  -38.05
+44 OVV "Ovintiv Inc." 26.47 -1.23 -4.44 1.05M 2.42M 6.91B  -56.73
+60 SWIM "Latham Group, Inc." 27.49 -1.21 -4.22 155.12K 739.72K 3.31B 75.52 -79.03
+86 TCOM "Trip.com Group Limited" 30.4 -1.2 -3.8 5.71M 4.18M 19.58B 30.58 36.77
+46 SDVKY "Sandvik AB (publ)" 25.14 -1.2 -4.56 37.87K 72.11K 31.56B 17.05 -47.48
+56 CRC "California Resources Corporation" 26.52 -1.19 -4.29 308.77K 917.49K 2.21B 0.47 -66.35
+53 DDD "3D Systems Corporation" 26.11 -1.16 -4.27 1.77M 6.41M 3.26B  -72.42
+77 PAAS "Pan American Silver Corp." 27.34 -1.14 -4.01 1.21M 2.45M 5.75B 23.27 -50.71
+19 VNE "Veoneer, Inc." 19.78 -1.13 -5.4 192.67K 493.26K 2.21B  -60.94
+28 IGT "International Game Technology PLC" 20.55 -1.1 -5.08 1.06M 1.96M 4.21B  -45.61
+85 DRVN "Driven Brands Holdings Inc." 28.56 -1.1 -3.71 78.39K 325.15K 4.78B  -75.89
+32 X "United States Steel Corporation" 22.11 -1.09 -4.7 11.41M 24.23M 5.96B  -52.91
+54 NCLH "Norwegian Cruise Line Holdings Ltd." 23.38 -1.08 -4.4 14.24M 16.64M 8.65B  -14.44
+40 SHZHY "Shenzhou International Group Holdings Limited" 21.39 -1.08 -4.81 50.74K 405.51K 32.15B 40.74 -87.49
+16 VNET "21Vianet Group, Inc." 17.79 -1.06 -5.62 2.16M 1.98M 2.56B  9.18
+94 OXY "Occidental Petroleum Corporation" 26.2 -1.03 -3.78 10.92M 17.71M 24.46B  -38.33
+22 VIPS "Vipshop Holdings Limited" 18.65 -1.02 -5.19 5.41M 12.47M 12.82B 12.42 -56.63
+26 TROX "Tronox Holdings plc" 19.07 -0.98 -4.87 428.69K 1.34M 2.92B 2.94 -67.94
+48 WOOF "Petco Health and Wellness Company, Inc." 19.0 -0.92 -4.62 2.18M 3.77M 5.74B 358.49 -42.23
+51 SM "SM Energy Company" 19.5 -0.92 -4.51 2.24M 3.37M 2.3B  -33.62
+9 AG "First Majestic Silver Corp." 13.03 -0.91 -6.55 4.09M 4.43M 3.28B 49.91 -7.76
+76 TUYA "Tuya Inc." 19.84 -0.85 -4.11 319.46K 916.05K 11.11B  -65.13
+80 CCL "Carnival Corporation & plc" 21.1 -0.85 -3.87 24.57M 26.97M 24.43B  -8.89
+30 SWGAY "The Swatch Group AG" 16.59 -0.84 -4.82 32.42K 79.02K 85.89B 30.47 -58.97
+45 CSTM "Constellium SE" 17.5 -0.83 -4.5 524.69K 1.3M 2.45B 37.01 -59.79
+82 UAA "Under Armour, Inc." 19.27 -0.81 -4.02 2.31M 5.11M 8.28B 74.7 -54.82
+67 EQT "EQT Corporation" 19.16 -0.8 -4.03 1.57M 4.15M 5.35B  -62.2
+93 MUR "Murphy Oil Corporation" 20.08 -0.8 -3.83 967.25K 2.77M 3.1B  -65.04
+3 RLX "RLX Technology Inc." 6.47 -0.78 -10.69 10.24M 5.69M 10.17B  79.98
+35 FHN "First Horizon Corporation" 15.69 -0.77 -4.71 6.73M 4.95M 8.67B 7.54 35.85
+27 FLR "Fluor Corporation" 15.44 -0.77 -4.78 1.45M 2.94M 2.18B  -50.78
+63 SBSW "Sibanye Stillwater Limited" 16.27 -0.71 -4.19 1.75M 2.62M 12.2B 5.7 -33.18
+36 SKLZ "Skillz Inc." 14.57 -0.71 -4.65 8.41M 20.26M 5.78B  -58.47
+18 TME "Tencent Music Entertainment Group" 11.71 -0.69 -5.56 16.82M 16.51M 19.82B 30.34 1.9
+84 UA "Under Armour, Inc." 17.11 -0.67 -3.77 1.92M 3.45M 8.33B 66.32 -44.41
+34 MOMO "Momo Inc." 13.16 -0.65 -4.71 2.66M 2.59M 2.71B 9.11 2.58
+66 OPEN "Opendoor Technologies Inc." 14.33 -0.63 -4.21 5.18M 11.95M 8.28B  -56.67
+91 TLRY "Tilray, Inc." 13.86 -0.54 -3.75 13.17M 25.3M 6.18B  -47.93
+25 WISH "ContextLogic Inc." 9.59 -0.51 -5.0 33.24M 60.05M 5.93B  -44.64
+52 CANO "Cano Health, Inc." 10.76 -0.5 -4.44 619.35K 898.54K 5.13B  -31.07
+81 IQ "iQIYI, Inc." 12.23 -0.49 -3.89 3.7M 11.69M 9.66B  -68.39
+17 FINV "FinVolution Group" 7.57 -0.44 -5.49 816.79K 1.96M 2.14B 6.74 -58.39
+74 PSFE "Paysafe Limited" 10.4 -0.44 -4.11 5.73M 7.5M 7.52B  -23.62
+49 LUNMF "Lundin Mining Corporation" 8.8 -0.42 -4.54 21.6K 102.5K 6.48B 15.71 -78.92
+21 HL "Hecla Mining Company" 6.7 -0.38 -5.3 4.63M 8.78M 3.59B 223.5 -47.32
+72 GLNCY "Glencore plc" 8.45 -0.36 -4.09 182.43K 347K 56.49B  -47.43
+43 IVPAF "Ivanhoe Mines Ltd." 6.82 -0.33 -4.59 102.37K 283.23K 8.24B 682.25 -63.86
+37 FCEL "FuelCell Energy, Inc." 6.62 -0.32 -4.54 9.36M 22.62M 2.14B  -58.6
+83 YSG "Yatsen Holding Limited" 7.8 -0.31 -3.88 1.41M 2.83M 4.92B  -50.18
+96 AGI "Alamos Gold Inc." 7.86 -0.29 -3.62 1.84M 2.4M 3.08B 14.85 -23.57
+55 NHYKF "Norsk Hydro ASA" 6.28 -0.28 -4.33 20.11K 1.77K 12.87B 22.2 1038.84
+10 BTG "B2Gold Corp." 3.965 -0.275 -6.49 10.05M 6.96M 4.2B 6.51 44.54
+69 KGC "Kinross Gold Corporation" 6.19 -0.27 -4.18 8.37M 13.22M 7.81B 5.73 -36.7
+13 VTSYF "Vitasoy International Holdings Limited" 3.23 -0.22 -6.38 33.06K 6.44K 3.45B 48.94 412.97
+97 KHOTF "Kahoot! ASA" 4.64 -0.18 -3.73 34.91K 53.38K 2.19B  -34.61
+90 GLCNF "Glencore plc" 4.25 -0.17 -3.85 38.21K 53.27K 56.63B  -28.27
+15 FNMAS "Federal National Mortgage Association" 1.75 -0.11 -5.91 1.2M 2M 2.22B 175.0 -40.13
+71 NLLSF "Nel ASA" 1.995 -0.085 -4.09 238.85K 128.82K 2.95B 19.18 85.42
+89 NGCRF "NagaCorp Ltd." 0.8269 -0.0331 -3.85 24.74K 48.76K 3.59B 34.45 -49.28
+42 UNEGF "United Energy Group Limited" 0.145 -0.007 -4.61 30K 106 3.83B 36.25 28201.89
+1 RLLCF "Rolls-Royce Holdings plc" 0.027 -0.0037 -12.05 8.38M 15.07M 588.62B  -44.39
