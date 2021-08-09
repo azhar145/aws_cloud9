@@ -46,7 +46,7 @@ df['1day']=df['Close']-df['Close'].shift(1)
 df['1day_gain']=df['1day'].round(2)
 
 #print(df.columns)
-mm=input('Enter no of days: ')
+mm=input('Enter no of days / will also compute minimum low/high for last no of days: ')
 
 df5=df.tail(int(mm))
 df5_low = df5['Low'].min()
@@ -139,12 +139,23 @@ for x in df.index:
     elif df2['HA'].loc[x] < 0:
         df2['direct'].loc[x]='HA_Red'
 
+df2['x1']=0
+df2['x2']=0
+#df2['x1']=input("Enter break1 ")
+#df2['x2']=input("Enter break2 ")
+df2['x1_d']=''
+df2['x2_d']=''
 
-
-
+u1=5
+u2=7
 
 for x in df2.index:
-    
+    df2['x1'].loc[x]=u1
+    df2['x2'].loc[x]=u2
+    df2['x1_d'].loc[x]=(df2['Close'].loc[x]-df2['x1'].loc[x])
+    df2['x2_d'].loc[x]=(df2['Close'].loc[x]-df2['x2'].loc[x])
+
+
     df2['greenby'].loc[x]=df2['greenby'].loc[x].round(2)
     df2['HA'].loc[x]=df2['HA'].loc[x].round(2)
     df2['a_High'].loc[x]=df2['a_High'].loc[x].round(2)
@@ -152,12 +163,14 @@ for x in df2.index:
     df2['a_Close'].loc[x]=df2['a_Close'].loc[x].round(2)
     df2['a_Open'].loc[x]=df2['a_Open'].loc[x].round(2)
 
-
-
+#for x in df2.index:
+#        df2['x1_d'].loc[x]=(str(df2['Close'].loc[x])-str(df2['x1'].loc[x]))
+#        df2['x2_d'].loc[x]=(df2['Close'].loc[x]-df2['x2'].loc[x])
 
 #df2=df2[['Date','Volume', 'ticker', 'Opena', 'green', 'greenby', 'direct', 'HA','a_High','a_Low', 'High', 'a_Close', 'a_Open','Close']]
 
-df2=df2[['ticker','Date','Volume','Close', 'direct', 'HA','green', 'greenby','Opena','a_High','a_Low', 'High', 'a_Close', 'a_Open','1day_gain','5day_gain']]
+df2=df2[['ticker','Date','Volume','Close', 'direct', 'HA','green', 'greenby','Opena','a_High','a_Low', 'High', 'a_Close', 'a_Open','1day_gain','5day_gain',
+    'x1','x2','x1_d','x2_d']]
 
 
 
@@ -316,7 +329,7 @@ for x in df3.index:
 #    df3['Volume_delta_1'].loc[x]=numerize.numerize(np.float32(df3['Volume_delta_1'].loc[x]).item())
 
 
-print(df3.tail(30))
+print(df3.tail(30000))
 
 
 print('\n','=========>  1- min    ',g,'\n')
@@ -350,9 +363,13 @@ print('stock market status ---> ',f.get_market_status())
 print('dd regularMarketVolume----> ', (f.get_quote_data(ticker)['regularMarketVolume']/1000000), 'Million')
 print('dd averageDailyVolume10Day----> ', f.get_quote_data(ticker)['averageDailyVolume10Day']/1000000, 'Million')
 print('dd averageDailyVolume3Mont ----> ', f.get_quote_data(ticker)['averageDailyVolume3Month']/1000000, 'Million')
-print('dd averageAnalystRating ----> **************** ', f.get_quote_data(ticker)['averageAnalystRating'])
+#print('dd averageAnalystRating ----> **************** ', f.get_quote_data(ticker)['averageAnalystRating'])
 
-print('EarningsQuarterlyGrowth---> ',yf.Ticker(ticker).info['earningsQuarterlyGrowth'])
+#print('dd averageAnalystRating ----> **************** ', f.get_quote_data(ticker)['averageAnalystRating'])
+
+
+
+#print('EarningsQuarterlyGrowth---> ',yf.Ticker(ticker).info['earningsQuarterlyGrowth'])
 
 #print(si.get_next_earnings_date(ticker))
 
@@ -364,12 +381,18 @@ print('EarningsQuarterlyGrowth---> ',yf.Ticker(ticker).info['earningsQuarterlyGr
 print('\n\n')
 #print(help(si))
 print(yf.Ticker(ticker).info['longBusinessSummary'])
-
+#for x in yf.Ticker(ticker).info:
+#    print(x)
+#    print('\n')
 
 #print(gg.getQuotes('AAPL'))
 
 print('\n\n**************************************************************************************************')
-
+print('\n\n','****************************************************************************************************','\n\n')
+print(' Low / Put  or High / Call value for Call/Put selection based on previous ',mm, ' days' )
+print('\n\n')
+print('**************************************************************************************************************')
+print('\n\n')
 print('\n',"Today's/yesterday close",df['Close'].tail(1))
 print(mm,'days low=',df5_low.round(2))
 print(mm,'days High=',df5_high.round(2))
@@ -377,11 +400,102 @@ print('Low-High gap with  ',mm,' days = ',(df5_high.round(2)-df5_low.round(2)).r
 print('\n',"Today's/yesterday close",df['Close'].tail(1))
 print('Low Yesterday close, how far from ',mm,' days low: ',df['Close'].tail(1)-df5_low.round(2))
 print('High Yesterday close, how far from ',mm,' days high: ',df['Close'].tail(1)-df5_high.round(2))
+
+print('\n')
+if not yf.Ticker(ticker).info['earningsGrowth'] is  None:
+    print('earningsGrowth :',yf.Ticker(ticker).info['earningsGrowth']*100,' %')
+else:
+    print('earningsGrowth :',yf.Ticker(ticker).info['earningsGrowth'])
+
+if not yf.Ticker(ticker).info['revenueGrowth'] is None:
+    print('revenueGrowth :',yf.Ticker(ticker).info['revenueGrowth']*100,' %')
+else:
+    print('revenueGrowth :',yf.Ticker(ticker).info['revenueGrowth'])
+
+
+print('revenueQuarterlyGrowth : ',yf.Ticker(ticker).info['revenueQuarterlyGrowth'])
+#print('earningsGrowth :',yf.Ticker(ticker).info['earningsGrowth']*100,' %')
+#print('revenueGrowth :',yf.Ticker(ticker).info['revenueGrowth']*100,' %')
+
+# df['Volume'].loc[x]=numerize.numerize(np.float32(df['Volume'].loc[x]).item())
+t3=yf.Ticker(ticker).info['totalDebt']
+t3a=numerize.numerize(np.float32(t3).item())
+print('totalDebt :',t3a)
+
+
+t3=yf.Ticker(ticker).info['totalRevenue']
+t3a=numerize.numerize(np.float32(t3).item())
+print('totalRevenue :',t3a)
+#print('totalRevenue :',yf.Ticker(ticker).info['totalRevenue'])
+
+
+
+t3=yf.Ticker(ticker).info['grossProfits']
+t3a=numerize.numerize(np.float32(t3).item())
+print('grossProfits :',t3a)
+#print('grossProfits: ',yf.Ticker(ticker).info['grossProfits'])
+
+
+
+print('profitMargins: ',yf.Ticker(ticker).info['profitMargins']*100,' %')
+print('grossMargins: ',yf.Ticker(ticker).info['grossMargins']*100,' %')
+
+
+
+t3=yf.Ticker(ticker).info['operatingCashflow']
+t3a=numerize.numerize(np.float32(t3).item())
+print('operatingCashflow :',t3a)
+#print('operatingCashflow: ',yf.Ticker(ticker).info['operatingCashflow'])
+
+
+
+
+
+t3=yf.Ticker(ticker).info['fullTimeEmployees']
+t3a=numerize.numerize(np.float32(t3).item())
+print('fullTimeEmployees :',t3a)
+
+#print('fullTimeEmployees: ',yf.Ticker(ticker).info['fullTimeEmployees'])
+
 print('*******************************************************************************************************','\n\n')
+
+
+
 #sleep(5)
 
 
 '''
+
+
+earningsQuarterlyGrowth
+revenueQuarterlyGrowth
+earningsGrowth
+revenueGrowth
+totalDebt
+totalRevenue
+totalCatotalRevenuetotalRevenueshPerShare
+revenuePerShare
+grossProfits
+
+fullTimeEmployees
+profitMargins
+grossMargins
+operatingCashflow
+
+
+freeCashflow
+
+numberOfAnalystOpinions
+targetMeanPrice
+
+
+
+
+
+
+
+
+
 print('dd Next Earning Date --------> ',f.get_next_earnings_date(ticker))
 print('dd Days range ------> ',f.get_quote_data(ticker)['regularMarketDayRange'])
 ############# below is long
@@ -416,3 +530,4 @@ print(f.info)
 print('\n\n')
 ###########################################################################################################
 '''
+
